@@ -1,0 +1,88 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/*SEGITIGA*/
+#segitiga-1 {
+    display: flex;
+    margin-top: 30px;
+    align-self: center;
+}
+
+/*RUMUS*/
+#input-rumus {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#navigation-bar {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 3px solid lightblue;
+}
+
+#logo {
+    margin-top: 0;
+    font-size: 30px;
+    margin-right: 20px;
+    margin-bottom: 15px;
+}
+
+#teks-opening {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    align-self: center;
+    margin-top: 1px;
+    margin-left: 10px;
+    margin-right: 200px;
+}
+.navigation> a{
+    text-decoration: none;
+}
+
+/* INPUT SECTION */
+
+.input-luas-section {
+    display: flex;
+    flex-direction: column;
+    margin-top: 26px;
+}
+
+label {
+    margin-bottom: 4px;
+    font-weight: bold;
+}
+
+.katik-input {
+    outline: none;
+    border-radius: 10px;
+    padding: 4px;
+    border: 1px solid rgb(212, 77, 23);
+}
+
+.katik-input:focus {
+    border: 1px solid slateblue;
+}
+
+.buttons {
+    display: flex;
+    align-self: center;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+button {
+    background-color: rgb(17, 128, 148);
+    color: bisque;
+    padding: 5px 15px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(169, 4, 4);
+}
+
+button:active {
+    background-color: rgb(108, 108, 108);
+    transform: translateY(2px);
+}
